@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact — Think Plan Execute Global Inc</title>
+<meta name="description" content="Get in touch with Think Plan Execute Global Inc." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'self';" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <span class="mark"><span></span><span></span><span></span></span>
+      Think Plan Execute <small>Global Inc</small>
+    </a>
+    <nav class="primary-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="get-involved.html">Get Involved</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="donate.html" class="cta">Donate</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M2 4H16M2 9H16M2 14H16" stroke="currentColor" stroke-width="1.6"/></svg>
+    </button>
+  </div>
+</header>
+
+<section class="hero" style="padding-bottom:60px;">
+  <div class="grid-bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <span class="eyebrow">Contact</span>
+    <h1 style="font-size:var(--step-3);max-width:16ch;">Tell us about a plan worth backing</h1>
+    <p class="lede">Partner with us, propose a program, or just ask a question. We read every message.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap two-col">
+    <div class="form-panel">
+      <form id="contact-form" novalidate>
+        <input type="text" name="website" id="hp-field" autocomplete="off" tabindex="-1" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;" aria-hidden="true" />
+        <div class="field">
+          <label for="c-name">Full name</label>
+          <input type="text" id="c-name" required />
+        </div>
+        <div class="field">
+          <label for="c-email">Email address</label>
+          <input type="email" id="c-email" required />
+        </div>
+        <div class="field">
+          <label for="c-message">Message</label>
+          <textarea id="c-message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Send message</button>
+        <p class="form-note">This opens your email app with your message pre-filled — nothing is sent from this page directly.</p>
+        <div id="contact-status" class="form-status"></div>
+      </form>
+    </div>
+
+    <div>
+      <span class="eyebrow">Reach us directly</span>
+      <h2 class="mt-0" style="font-size:var(--step-2);">Other ways to connect</h2>
+      <div class="card-grid" style="grid-template-columns:1fr;">
+        <div class="card">
+          <span class="tag">Email</span>
+          <h3><a href="mailto:info@thinkplanexecuteglobal.org">info@thinkplanexecuteglobal.org</a></h3>
+          <p>General enquiries, partnerships, and press.</p>
+        </div>
+        <div class="card">
+          <span class="tag">Location</span>
+          <h3>Maryland, USA</h3>
+          <p>Add your office address here once available.</p>
+        </div>
+        <div class="card">
+          <span class="tag">Social</span>
+          <h3>Add your handles</h3>
+          <p>Placeholder — link your Instagram, X, or LinkedIn here.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>Think Plan Execute Global Inc</h4>
+        <p style="max-width:34ch;color:var(--text-onink-muted);">A nonprofit helping communities move from intention to outcome.</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="get-involved.html">Get Involved</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="donate.html">Donate</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:info@thinkplanexecuteglobal.org">info@thinkplanexecuteglobal.org</a></li>
+          <li>Maryland, USA</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> Think Plan Execute Global Inc</span>
+      <span>Registered nonprofit &middot; Placeholder content</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>

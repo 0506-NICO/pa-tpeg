@@ -1,0 +1,7 @@
+Contact: mailto:info@thinkplanexecuteglobal.org
+Preferred-Languages: en
+Canonical: https://thinkplanexecuteglobal.org/.well-known/security.txt
+Policy: https://thinkplanexecuteglobal.org/about.html
+# If you find a security issue on this site, please email us before
+# disclosing it publicly. We'll acknowledge reports within 5 business days.
+# Replace the domain above with your real one once the site is live.

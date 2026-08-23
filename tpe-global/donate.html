@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Donate — Think Plan Execute Global Inc</title>
+<meta name="description" content="Support Think Plan Execute Global Inc — donate free of platform fees via Zeffy, or give directly by card via Stripe." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; frame-src https://www.zeffy.com https://*.zeffy.com; connect-src 'self'; base-uri 'self'; form-action 'self';" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <span class="mark"><span></span><span></span><span></span></span>
+      Think Plan Execute <small>Global Inc</small>
+    </a>
+    <nav class="primary-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="get-involved.html">Get Involved</a>
+      <a href="contact.html">Contact</a>
+      <a href="donate.html" class="cta active">Donate</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M2 4H16M2 9H16M2 14H16" stroke="currentColor" stroke-width="1.6"/></svg>
+    </button>
+  </div>
+</header>
+
+<section class="hero" style="padding-bottom:60px;">
+  <div class="grid-bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <span class="eyebrow">Stage 03 — Execute</span>
+    <h1 style="font-size:var(--step-3);max-width:16ch;">Fund a plan already in motion</h1>
+    <p class="lede">100% of every donation reaches Think Plan Execute Global Inc — we cover no platform fees, ever, through Zeffy.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Give via Zeffy — zero fees</span>
+      <h2>Every dollar you give reaches us</h2>
+      <p class="lede">Zeffy charges nonprofits nothing — no platform fee, no transaction fee, no card processing fee. Your full donation goes to the mission.</p>
+    </div>
+
+    <div class="form-panel" id="zeffy-panel">
+      <div class="form-status show err" style="margin-bottom:22px;" id="zeffy-status">
+        Our Zeffy donation form isn't connected yet. Once it's live in the Zeffy dashboard, paste the embed link into <code>assets/script.js</code> (look for <code>ZEFFY_FORM_URL</code>) and this panel will show the real form automatically.
+      </div>
+
+      <!--
+        HOW TO GO LIVE WITH ZEFFY:
+        1. Create the donation form at zeffy.com and finish organization verification.
+        2. Copy the form's embed URL (Zeffy dashboard → Share my form → Iframe embed),
+           it looks like: https://www.zeffy.com/embed/donation-form/xxxxxxxxxxxxxxxxx
+        3. Paste it as ZEFFY_FORM_URL in assets/script.js.
+        That's it — no other code changes needed, the iframe below fills itself in.
+      -->
+      <div id="zeffy-embed-container" style="display:none;">
+        <iframe
+          id="zeffy-iframe"
+          title="Donation form powered by Zeffy"
+          style="width:100%;min-height:1100px;border:none;border-radius:var(--radius);"
+          loading="lazy">
+        </iframe>
+      </div>
+
+      <a href="#" id="zeffy-hosted-link" class="btn btn-primary" style="width:100%;justify-content:center;display:none;">
+        Give via Zeffy (opens secure form)
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="on-ink">
+  <div class="wrap two-col">
+    <div>
+      <span class="eyebrow">Backup — give by card via Stripe</span>
+      <h2 class="mt-0" style="font-size:var(--step-2);">Prefer to pay directly by card?</h2>
+      <p class="text-muted">These Stripe links are a fallback if Zeffy is ever unavailable, or if you simply prefer Stripe's checkout. Stripe's own processing fees apply here, unlike Zeffy above.</p>
+    </div>
+    <div class="form-panel" style="background:var(--ink-soft);border-color:var(--line-onink);">
+      <div class="form-status show err" style="margin-bottom:20px;">
+        Placeholder — create matching Stripe Payment Links, then set them in <code style="color:var(--gold);">assets/script.js</code>.
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px;">
+        <a href="#" class="btn btn-onink" style="justify-content:space-between;" data-stripe-link="tier-25">
+          <span>Give $25</span><span>Think</span>
+        </a>
+        <a href="#" class="btn btn-onink" style="justify-content:space-between;" data-stripe-link="tier-75">
+          <span>Give $75</span><span>Plan</span>
+        </a>
+        <a href="#" class="btn btn-onink" style="justify-content:space-between;" data-stripe-link="tier-250">
+          <span>Give $250</span><span>Execute</span>
+        </a>
+        <a href="#" class="btn btn-onink" style="justify-content:space-between;" data-stripe-link="custom">
+          <span>Choose your own amount</span><span>&rarr;</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Where it goes</span>
+      <h2>Every donation is tied to a stage</h2>
+    </div>
+    <div class="card-grid">
+      <div class="card">
+        <span class="tag">$25 – $75</span>
+        <h3>Think</h3>
+        <p>Funds a community listening session and problem write-up for one program.</p>
+      </div>
+      <div class="card">
+        <span class="tag">$75 – $250</span>
+        <h3>Plan</h3>
+        <p>Covers materials and facilitation to turn a validated idea into a costed plan.</p>
+      </div>
+      <div class="card">
+        <span class="tag">$250+</span>
+        <h3>Execute</h3>
+        <p>Supports delivery — trainers, materials, and logistics to carry a plan out.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>Think Plan Execute Global Inc</h4>
+        <p style="max-width:34ch;color:var(--text-onink-muted);">A nonprofit helping communities move from intention to outcome.</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="get-involved.html">Get Involved</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="donate.html">Donate</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:info@thinkplanexecuteglobal.org">info@thinkplanexecuteglobal.org</a></li>
+          <li>Maryland, USA</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> Think Plan Execute Global Inc</span>
+      <span>Donations processed fee-free via Zeffy</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>

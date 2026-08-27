@@ -1,23 +1,24 @@
 /* ============================================================
-   Think Plan Execute Global Inc — Design Tokens
-   Blueprint / ledger aesthetic: a plan turning into action.
+   Think Plan Execute Global Inc (TPEG) — Design Tokens
+   Palette matches the org's real printed materials: forest green
+   + terracotta orange, on a warm paper ground.
    ============================================================ */
 
 :root {
   /* Color */
-  --ink:        #12182B;   /* primary dark — the "plan" */
-  --ink-soft:   #1E2740;
-  --paper:      #EDEFE9;   /* cool pale surface — the "page" */
-  --paper-dim:  #E1E4DC;
-  --gold:       #C89B3C;   /* execute / action accent */
-  --teal:       #2F6E68;   /* think / plan accent */
-  --coral:      #C1502E;   /* urgency — donate CTA */
-  --text-ink:   #171B24;
-  --text-muted: #5B6270;
-  --text-onink: #EDEFE9;
-  --text-onink-muted: #A6ACC0;
-  --line:       #C7CBC0;
-  --line-onink: #333C58;
+  --ink:        #1F3A22;   /* primary dark — TPEG forest green */
+  --ink-soft:   #28492D;
+  --paper:      #F7F3EA;   /* warm paper surface, matches flyer stock */
+  --paper-dim:  #ECE6D6;
+  --gold:       #E0672E;   /* TPEG orange — action / execute accent */
+  --teal:       #5C8058;   /* moss green — think / plan accent */
+  --coral:      #C24F1E;   /* deep burnt orange — urgency, donate CTA */
+  --text-ink:   #1B2118;
+  --text-muted: #5B6259;
+  --text-onink: #F7F3EA;
+  --text-onink-muted: #B9C7B4;
+  --line:       #D8D2C0;
+  --line-onink: #3A5A3E;
 
   /* Type */
   --font-display: "Space Grotesk", "Helvetica Neue", Arial, sans-serif;

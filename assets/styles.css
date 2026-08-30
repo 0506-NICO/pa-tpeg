@@ -251,7 +251,7 @@ section { padding: clamp(56px, 9vw, 104px) 0; }
 .on-ink .eyebrow::before { background: var(--gold); }
 
 /* ---------- Process (Think / Plan / Execute) ---------- */
-.process { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+.process { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); }
 .process-step { background: var(--paper); padding: 32px clamp(20px,3vw,34px); }
 .process-step .stage-index { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); letter-spacing: 0.1em; }
 .process-step h3 { font-size: var(--step-2); margin: 14px 0 12px; }
@@ -259,6 +259,11 @@ section { padding: clamp(56px, 9vw, 104px) 0; }
 .process-step:nth-child(2) h3 { color: var(--gold); }
 .process-step:nth-child(3) h3 { color: var(--coral); }
 .process-step p { color: var(--text-muted); }
+.process-step--global { background: var(--ink); }
+.process-step--global .stage-index { color: var(--text-onink-muted); }
+.process-step--global h3 { color: var(--gold); font-size: var(--step-3); }
+.process-step--global p { color: var(--text-onink); }
+@media (max-width: 900px) { .process { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 760px) { .process { grid-template-columns: 1fr; } }
 
 /* ---------- Ledger / stats ---------- */

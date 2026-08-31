@@ -230,6 +230,7 @@ nav.primary-nav a.cta:hover { background: var(--coral); }
 .hero h1 .think { color: var(--teal); }
 .hero h1 .plan { color: var(--paper); }
 .hero h1 .execute { color: var(--gold); }
+.hero h1 .global { color: var(--coral); }
 .hero .lede {
   font-family: var(--font-body);
   font-size: var(--step-1);

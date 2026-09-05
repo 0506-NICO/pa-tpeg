@@ -34,8 +34,8 @@ document.addEventListener("DOMContentLoaded", () => {
   //   4. (Optional) Also paste the plain hosted-page link as ZEFFY_HOSTED_URL —
   //      used as a "open in new tab" fallback button above the iframe.
   // Leave both blank and the donate page will keep showing the "not connected yet" notice.
-  const ZEFFY_FORM_URL = ""; // e.g. "https://www.zeffy.com/embed/donation-form/xxxxxxxxxxxxxxxxx"
-  const ZEFFY_HOSTED_URL = ""; // e.g. "https://www.zeffy.com/en-US/donation-form/xxxxxxxxxxxxxxxxx"
+  const ZEFFY_FORM_URL = ""; // leave blank for now — the embed URL is different from the page link above
+const ZEFFY_HOSTED_URL = "https://www.zeffy.com/en-US/donation-form/donate-to-change-lives-22642";
 
   const zeffyStatus = document.getElementById("zeffy-status");
   const zeffyEmbedContainer = document.getElementById("zeffy-embed-container");
